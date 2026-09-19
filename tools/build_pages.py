@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "usmankhan-personal"
+SOURCE = ROOT 
 CSP = "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'"
 PUBLIC_FILES = (
     "index.html", "journal.html", "project.html", "editorial-policy.html",
